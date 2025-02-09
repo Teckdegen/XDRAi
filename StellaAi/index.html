@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XRDAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-buttons">
+            <button class="nav-button" id="newChatBtn">💬</button>
+            <button class="nav-button" id="historyBtn">📔</button>
+        </div>
+        <div class="logo">XRDAi</div>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+    </div>
+
+    <div class="history-modal" style="display: none;">
+        <div class="history-content">
+            <div class="history-header">
+                <h2>Chat History</h2>
+                <button class="close-history" title="Close">×</button>
+            </div>
+            <div class="history-list">
+                <!-- Chat history will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-messages">
+        <div class="welcome-message">
+            <div class="typing-text">XRDAI</div>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-input-container">
+            <div class="input-wrapper">
+                <button class="attach-btn">📎</button>
+                <input type="text" class="chat-input" placeholder="Ask Xrdai anything ...">
+                <button class="send-btn">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        XDRAI
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
