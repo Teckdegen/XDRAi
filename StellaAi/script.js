@@ -2,7 +2,7 @@ class ChatApp {
     constructor() {
         this.initializeElements();
         this.attachEventListeners();
-        this.GROQ_API_KEY = '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';
+        this.GROQ_API_KEY = 'Replace with actuall groq api key';
         this.messages = [];
         this.chatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
         this.currentChat = {
